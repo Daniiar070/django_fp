@@ -64,3 +64,7 @@ def loginView(request):
 
     return render(request, 'blog/login.html', {'form': form})
 
+def landing(request):
+    return render(request, 'blog/landing.html')
+
+
